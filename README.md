@@ -51,24 +51,19 @@ numpy
 
 The default configuration uses `CPUExecutionProvider`, so NVIDIA CUDA is not required.
 
-## Installation
+## Quick Start
 
-Clone the repository:
+Copy and run the commands below. The block includes repository cloning, dependency installation, single-image processing, and folder batch processing.
 
 ```bash
 git clone https://github.com/wangyifan349/FaceGlow
 cd FaceGlow
-```
-
-Install the dependencies:
-
-```bash
 pip install insightface onnxruntime opencv-python numpy
+python beauty_processor.py --input photo.jpg --output beauty_output
+python beauty_processor.py --input photos --output beauty_output
 ```
 
 On the first run, InsightFace may download the `buffalo_l` model files.
-
-## Quick Start
 
 ### Process One Image
 
