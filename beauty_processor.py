@@ -1,4 +1,4 @@
-"""安装依赖可直接执行 `pip install insightface onnxruntime opencv-python numpy`。FaceGlow 是一个用于离线照片美颜与批量处理的 Python 程序：InsightFace 负责检测人脸并提供 106 点与 5 点关键点，OpenCV 和 NumPy 负责精确肤色区域识别、五官保护、保边磨皮、纹理恢复、局部美白以及脸颊和下颌的局部瘦脸形变；程序支持命令行处理单张图片或整个文件夹，也可以作为 Python 模块直接调用，所有输入文件只读，处理结果始终写入新的输出路径，不覆盖、不移动、不删除原始照片。"""
+"""Install dependencies with `pip install insightface onnxruntime opencv-python numpy`. FaceGlow is an offline photo beautification and batch-processing tool: InsightFace provides face detection plus 106-point and 5-point landmarks, while OpenCV and NumPy perform precise skin-region detection, facial-feature protection, edge-preserving smoothing, texture restoration, localized skin brightening, and local cheek/jaw slimming. It supports both command-line processing for individual images or folders and direct use as a Python module. Input files are read-only, and processed images are always written to new output paths without overwriting, moving, or deleting the originals."""
 
 from __future__ import annotations
 
